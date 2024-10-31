@@ -15,7 +15,7 @@ function App() {
  
 
   return (
-    <div className='w-520'>
+    <div className='w-427'>
    <Nav/>
    <Stat/>
    <Hero/>

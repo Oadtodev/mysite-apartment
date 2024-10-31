@@ -3,7 +3,7 @@
 function Nav() {
   return (
     <>
-        <div className="navbar bg-neutral w-520 text-white p-1 sticky top-0 z-10 scroll-smooth">
+        <div className="navbar bg-neutral sm:w-427 text-white p-1 sticky top-0 z-10 scroll-smooth">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -22,7 +22,7 @@ function Nav() {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow bg-neutral">
+        className="menu menu-sm dropdown-content w-full items-center rounded-box z-[1] mt-3  p-2 shadow bg-neutral">
         <li><a href='Navbar'>หน้าหลัก</a></li>
         <li><a>แจ้งซ่อม</a></li>
         <li><a href='Login'>เช็คยอดบิล</a></li>
@@ -30,7 +30,7 @@ function Nav() {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl">Nuanjan Apartment</a>
+    <a className="btn btn-ghost text-xl">Apartment</a>
   </div>
   <div className="navbar-end">
     

@@ -15,7 +15,7 @@ function App() {
  
 
   return (
-    <>
+    <div className='sm:w-full'>
    <Nav/>
    <Stat/>
    <Hero/>
@@ -23,7 +23,7 @@ function App() {
  
    
     {/* <Navbar/> */}
-    </>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@
 function Nav() {
   return (
     <>
-        <div className="navbar bg-neutral text-white p-1 sticky top-0 z-10 scroll-smooth">
+        <div className="navbar bg-neutral w-520 text-white p-1 sticky top-0 z-10 scroll-smooth">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
